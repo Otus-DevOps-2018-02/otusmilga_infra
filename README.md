@@ -31,5 +31,6 @@ Host someinternalhost
         IdentityFile ~/.ssh/appuser
 ```
 ### vpn credentials
-bastion_IP = 35.185.98.180  someinternalhost_IP = 10.142.0.4
+bastion_IP = 35.185.98.180
+someinternalhost_IP = 10.142.0.4
 
