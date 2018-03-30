@@ -2,9 +2,9 @@
 otusmilga Infra repository
 
 ## Homework-5 (cloud-testapp)
-```
-testapp_IP = 35.204.12.66 testapp_port = 9292
-```
+
+testapp_IP = 35.204.12.66
+testapp_port = 9292
 
 ### GCP startup script
 gcloud command to create, setup env and deploy testapp:
