@@ -12,7 +12,7 @@ function run_c {
 
 run_c sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 run_c sudo bash -c 'echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" > /etc/apt/sources.list.d/mongodb-org-3.2.list'
-run_c sudo apt -yes update
+run_c sudo apt -y update
 run_c sudo apt install -y mongodb-org
 run_c sudo systemctl start mongod
 run_c sudo systemctl enable mongod
