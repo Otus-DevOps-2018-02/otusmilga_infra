@@ -16,7 +16,7 @@ gcloud compute instances create reddit-app\
   --machine-type=g1-small \
   --tags puma-server \
   --restart-on-failure\
-  --metadata startup-script=startup.sh
+  --metadata-from-file  startup-script=startup.sh
 ```
 same, but url startup:
 ```
